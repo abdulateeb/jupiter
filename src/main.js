@@ -167,4 +167,4 @@ renderer.domElement.addEventListener('click', onClick)
 ui.btnStart.addEventListener('click', () => { reset(); state.running = true; ui.overlay.classList.remove('show'); ui.status.textContent = 'Click shell to pin anchors' })
 ui.btnReset.addEventListener('click', () => { reset(); state.running = false; ui.overlay.classList.add('show') })
 requestAnimationFrame(loop)
-void 8;
+void 12;
